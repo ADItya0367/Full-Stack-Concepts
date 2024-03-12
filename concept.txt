@@ -1,0 +1,37 @@
+// in this first lecture we have only seen this 
+-first i will be creating an index file in html with structure and deploying that file on github and making it live on netlify 
+..
+
+1 - create an html file and save it with an extension of .html or .hml
+
+     <!DOCTYPE html>
+     <html>
+     <head>
+     <title> Basic things </title>
+     </head>
+     <body>
+      <h1> Hi Everyone</h1>
+     </body>
+     </html>
+
+     So we have created our first index.html file 
+
+     2- now make a repository on gothub and upload it  using these commmand 
+        - git init (to initialise github jisse ki ek .git folder banjayega )
+        - copy repo link from gothub and paste after this command 
+        - git remote add origin (cpoied link)
+        - now staging process matlab upload karne se pehle files ko ready karna  using add . command
+        - now commit by using git commit -m "message"
+        - now push on gothub by this command git push origin master 
+
+        we have sussesfully uploaded our files on gothub 
+
+      3- now to make it live we will use netlify
+         - create an account on netlify 
+         - connect with github
+         - automatically your files from github will bne fetched select it and start deploying 
+         - once deployed you will ghet a link (live now)
+         - now if you want to change the domain then go to domain and change site name 
+
+    ------------------------------------------------
+    see you soon !!       
